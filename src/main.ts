@@ -1,4 +1,9 @@
-const BUSINESS_ID = false ? '71804' : '9092882' ;
+const BUSINESSES = {
+  MARKET_DEV: '9030628'
+}
+
+
+const BUSINESS_ID = BUSINESSES.MARKET_DEV;
 const RALLE_PWA_URL = 'http://localhost:8080/';
 
 const frame = document.getElementById('frame') as HTMLIFrameElement;
